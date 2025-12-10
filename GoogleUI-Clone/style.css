@@ -1,0 +1,303 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color:black;
+  color: white;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.nav-left {
+  justify-content: flex-start;
+}
+
+.nav-right {
+  justify-content: flex-end;
+}
+.nav-right img{
+  width: 20px;
+  height: 20px;
+  background-color: black;
+ 
+}
+.nav-left{
+  max-width: 0,0,0,10;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.nav-right{
+  padding-top: 10px;
+  padding-right: 20px;
+}
+.nav-left,
+.nav-right{
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+.nav-left a:link{
+  color: white;
+  text-decoration: none;
+}
+.nav-left a:hover{
+  color: white;
+  text-decoration: underline;
+}
+.nav-left a:active{
+  color: white;
+  text-decoration: underline;
+}
+.nav-left a:visited{
+  color: white;
+  text-decoration: none;
+}
+.nav-right a:link{
+  color: white;
+  text-decoration: none;
+}
+.nav-right a:hover{
+  color: white;
+  text-decoration: underline;
+}
+.nav-right a:active{
+  color: white;
+  text-decoration: none;
+}
+.nav-right a:visited{
+  color: white;
+  text-decoration: none;
+}
+.nav-right i{
+  color: white;
+}
+.picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+  height: auto; /* or set a specific height if needed */
+  background: none;
+  
+}
+
+.picture img {
+  max-width: 500px; /* Adjust size as needed */
+  height: 200px;
+  border-radius: 10px;
+  background: none;
+  background-color: black;
+}
+.picture i{
+  display: inline;
+  align-items: end;
+  background-color: black;
+  margin-top: 100px;
+  margin-left: 0.5px;
+  
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgb(61, 62, 62);
+  max-width: 700px;
+  margin-left: 400px;
+  margin-top: 10px;
+  height: 50px;
+  border-radius: 24px;
+
+}
+.nav-l,
+.nav-r{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  gap: 20px;
+  align-items: center;
+  
+
+}
+.nav-l{
+  justify-content: flex-start;
+  margin-left: 10px;
+  padding-left: 10px;
+}
+.nav-r{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 10px;
+  padding-right: 10px;
+}
+.button{
+  display: flex;
+  border-radius: 20px;
+  gap: 5px;
+  border-color: rgb(156, 138, 138);
+  border-width: 2px;
+  border-style: solid;
+  padding: 5px;
+  transition: border-image 0.5s ease;
+  
+}
+.button:hover {
+  border-image: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet) 2;
+  border-image-slice:2 ;
+  border-radius: 20px;
+}
+.button:hover {
+  animation: rainbowBorder 3s linear infinite;
+  border-radius: 24px;
+}
+
+@keyframes rainbowBorder {
+  0% {
+    border-image-source: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet);
+    border-radius:24px ;
+  }
+  100% {
+    border-image-source: linear-gradient(450deg, violet, indigo, blue, green, yellow, orange, red);
+    border-radius: 24px;
+  }
+}
+.button1{
+  border-radius: 24px;
+  margin-top: 30px;
+  margin-left: 590px;
+  gap: 20px;
+ 
+  align-items: center;
+}
+.googlesearch{
+  background-color: #514b4b5d;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  width:125px;
+  border-style: solid;
+  margin: 2,2,2,2;
+  margin-right: 10px;
+}
+.good{
+  background-color: #514b4b5d;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  width:125px;
+  border-style: solid;
+  margin: 2,2,2,2;
+}
+.googlesearch:hover{
+  border: 1px solid white;
+}
+.good:hover{
+  border: 1px solid white;
+}
+.googleappered{
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 30px;
+}
+.googleappered a:link{
+  text-decoration: none;
+  color:rgb(47, 91, 173);
+}
+.googleappered a:hover{
+  text-decoration: underline;
+  color:rgb(47, 91, 173);
+   
+}
+.googleappered a:active{
+  text-decoration: underline;
+  color:rgb(47, 91, 173);
+}
+.googleappered a:visited{
+  text-decoration: none;
+  color:rgb(47, 91, 173);
+}
+
+.india{
+  margin-top: 175px;
+  background-color: rgb(21, 22, 22);
+  padding: 15px;
+  
+}
+
+footer{
+  display: flex;
+  color: white;
+  background-color: rgb(21, 22, 22);
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+  
+}
+.nav-fl,
+.nav-fr{
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+}
+.nav-fl{
+  justify-content: flex-start;
+  gap: 25px;
+  margin-left: 20px;
+  padding: 20px;
+}
+.nav-fr{
+  justify-content: flex-end;
+  gap: 25px;
+  margin-right: 20px;
+  padding: 20px;
+}
+.nav-fl a:link{
+  text-decoration: none;
+  color: white;
+}
+.nav-fl a:hover{
+  text-decoration: underline;
+  color: white;
+}
+.nav-fl a:active{
+  text-decoration: underline;
+  color: white;
+}
+.nav-fl a:visited{
+  text-decoration: none;
+  color: white;
+}
+.nav-fr a:link{
+  text-decoration: none;
+  color: white;
+}
+.nav-fr a:hover{
+  text-decoration: underline;
+  color: white;
+}
+.nav-fr a:active{
+  text-decoration: underline;
+  color: white;
+}
+.nav-fr a:visited{
+  text-decoration: none;
+  color: white;
+}
